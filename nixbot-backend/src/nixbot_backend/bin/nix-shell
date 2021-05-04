@@ -1,0 +1,4 @@
+#!/bin/sh
+# Called like this by nixpkgs-review. Just run the post-build-hook
+# /home/mcgibbon/.cache/nixpkgs-review/pr-117958/shell.nix --run /nix/store/q7y16spjsmrdcpx5yl5kll6wvf7q883i-nixbot-backend-0.1/bin/nixbot-backend-post-build-hook
+exec $3

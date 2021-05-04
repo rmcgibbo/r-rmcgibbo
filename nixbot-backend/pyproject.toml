@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "nixbot_backend"
+author = "Robert T. McGibbon"
+
+[tool.flit.scripts]
+nixbot-backend = "nixbot_backend.backend:main"
+nixbot-backend-post-build-hook = "nixbot_backend.post_build_hook:main"
+nixbot-backend-pre-build-filter = "nixbot_backend.pre_build_filter:main"
+nixbot-compile-fst = "nixbot_backend.compile_fst:main"
