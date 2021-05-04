@@ -1,1 +1,5 @@
 # r-rmcgibbo
+
+This is the code that runs the `r-rmcgibbo` bot that builds PRs to NixOS/nixpkgs.
+
+[Current status](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=r-rmcgibbo&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTUyMzM1NzEwNjk2OSIsIlUiOiJ1cy1lYXN0LTFfVVN6Y1BqWW5nIiwiQyI6IjVxMjF1cHVhbmU4bDRvOTFvbjRlMWQwOHQ4IiwiSSI6InVzLWVhc3QtMTo3YjNmYzNjMC00NjczLTRlYzMtOGZjMC1hNTRiNmEzMmI5YjEiLCJPIjoiYXJuOmF3czppYW06OjUyMzM1NzEwNjk2OTpyb2xlL3NlcnZpY2Utcm9sZS9DbG91ZFdhdGNoRGFzaGJvYXJkLVB1YmxpYy1SZWFkT25seUFjY2Vzcy1yLXJtY2dpYmJvLUVSWUlMNTlPIiwiTSI6IlB1YmxpYyJ9)
