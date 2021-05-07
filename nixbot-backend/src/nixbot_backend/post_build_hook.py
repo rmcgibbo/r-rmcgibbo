@@ -68,7 +68,7 @@ def main():
             print(
                 "\nNote that build failures [may predate](https://github.com/nix-community/hydra-check) "
                 "this PR, and could be nondeterministic or hardware dependent.\n"
-                "Please exercise your independent judgement.",
+                "Please exercise your independent judgement. Does something look off? Please file an [issue](https://github.com/rmcgibbo/r-rmcgibbo/issues) or reach out on IRC.",
                 file=f,
             )
 

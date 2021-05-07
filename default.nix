@@ -20,10 +20,10 @@ rec {
   }) { };
 
   nixpkgs-hammer = (import (pkgs.fetchFromGitHub {
-    owner = "rmcgibbo";
+    owner = "jtojnar";
     repo = "nixpkgs-hammering";
-    rev = "8a287631f05e0aa6388917166079a6047e6ae341";
-    sha256 = "1ppzk3s3qaazmdnlbd0a8xj1m5fzmgb1np2w95bxf9rg172r9xk1";
+    rev = "6a4f88d82ab7d0a95cf21494896bce40f7a4ac22";
+    sha256 = "0597xl1q50ykwhvmnx30r2vvrlqfz8kpvr2zykcfj26rw69b8lh7";
   })).defaultPackage.${system};
 
   statx = import (pkgs.fetchFromGitHub {
