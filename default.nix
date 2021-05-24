@@ -15,8 +15,8 @@ rec {
   nixpkgs-review = import (fetchFromGitHub {
     owner = "rmcgibbo";
     repo = "nixpkgs-review";
-    rev = "59c16c0ffb8b675328e41c72812e8c4595b33d91";
-    sha256 = "05rqd7fyps6arcyq291hmxxhrbvi1gkhn8p5nbz4bvkr5zbm43kz";
+    rev = "9f4884a8c292c144b8a29c7adc1c941ece6a12ed";
+    sha256 = "1drk3hspampfcfz6x3h2dki15lkhyv5y9kjpvsknixccn13i2jk2";
   }) { };
 
   nixpkgs-hammer = (import (pkgs.fetchFromGitHub {
