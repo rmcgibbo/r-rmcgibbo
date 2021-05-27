@@ -105,6 +105,7 @@ SKIP_ATTR_NAMES: List[str] = [
     "houdini",
     "cplex",
     "mathematica*",
+    "ib-controller",  # https://gist.github.com/r-rmcgibbo/9ba49cfe04e62d0e6d9d6ae3db3d6bd6
 
     # `git grep` in nixpkgs for usages of requireFile
 ]
