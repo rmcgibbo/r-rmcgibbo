@@ -1,0 +1,281 @@
+{
+  "nodes": {
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1606424373,
+        "narHash": "sha256-oq8d4//CJOrVj+EcOaSXvMebvuTkmBJuT5tzlfewUnQ=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "99f1c2157fba4bfe6211a321fd0ee43199025dbf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1610051610,
+        "narHash": "sha256-U9rPz/usA1/Aohhk7Cmc2gBrEEKRzcW4nwPWMPwja4Y=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3982c9903e93927c2164caa727cd3f6a0e6d14cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "naersk": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1618844365,
+        "narHash": "sha256-Z9t0rr+5OG/ru3jdg3jivfYVU4ydV/nqt8UwIut7uHs=",
+        "owner": "nmattia",
+        "repo": "naersk",
+        "rev": "32e3ba39d9d83098b13720a4384bdda191dd0445",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nmattia",
+        "repo": "naersk",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1622922048,
+        "narHash": "sha256-nTyKxe0n7l/4HSmYaIN+63WQrvHrTJY6drSwP7bMqhU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5de44c15758465f8ddf84d541ba300b48e56eda4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-hammering": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "naersk": "naersk",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "utils": [
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1620399875,
+        "narHash": "sha256-B1K0kuHZCOnY9F/kfSf6DtO8t8hgdFs35NODggPtJxU=",
+        "owner": "jtojnar",
+        "repo": "nixpkgs-hammering",
+        "rev": "6a4f88d82ab7d0a95cf21494896bce40f7a4ac22",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jtojnar",
+        "repo": "nixpkgs-hammering",
+        "type": "github"
+      }
+    },
+    "nixpkgs-review": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1623021825,
+        "narHash": "sha256-Xs6AbZ69LlPIEfUziuZYzWEtKVW4K1Abng9+UBD+HeU=",
+        "owner": "rmcgibbo",
+        "repo": "nixpkgs-review",
+        "rev": "b5bc2eac882a18f9f7f1e7acf34f8d55965aba92",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "nixpkgs-review",
+        "rev": "b5bc2eac882a18f9f7f1e7acf34f8d55965aba92",
+        "type": "github"
+      }
+    },
+    "precedence-constrained-knapsack": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "py-utils": "py-utils",
+        "utils": [
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1622928741,
+        "narHash": "sha256-MnpJtOxGscQY3ncxe87ByOVNXzsNlfownxZOIw+JyAw=",
+        "owner": "rmcgibbo",
+        "repo": "precedenceConstrainedKnapsack",
+        "rev": "b3ca0c9847572cc77fb671a847aa7d107a60c3b9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "precedenceConstrainedKnapsack",
+        "type": "github"
+      }
+    },
+    "py-utils": {
+      "locked": {
+        "lastModified": 1622925786,
+        "narHash": "sha256-rhdXGpPo+w5unxTyknBlRohjUunjipkMNQDhRhdvCwI=",
+        "owner": "rmcgibbo",
+        "repo": "python-flake-utils",
+        "rev": "a7c6e80d8fdd1f00ab5a873e3f73516554307a1f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "python-flake-utils",
+        "type": "github"
+      }
+    },
+    "py-utils_2": {
+      "locked": {
+        "lastModified": 1622925786,
+        "narHash": "sha256-rhdXGpPo+w5unxTyknBlRohjUunjipkMNQDhRhdvCwI=",
+        "owner": "rmcgibbo",
+        "repo": "python-flake-utils",
+        "rev": "a7c6e80d8fdd1f00ab5a873e3f73516554307a1f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "python-flake-utils",
+        "type": "github"
+      }
+    },
+    "py-utils_3": {
+      "locked": {
+        "lastModified": 1622925786,
+        "narHash": "sha256-rhdXGpPo+w5unxTyknBlRohjUunjipkMNQDhRhdvCwI=",
+        "owner": "rmcgibbo",
+        "repo": "python-flake-utils",
+        "rev": "a7c6e80d8fdd1f00ab5a873e3f73516554307a1f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "python-flake-utils",
+        "type": "github"
+      }
+    },
+    "pyfst": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "py-utils": "py-utils_2",
+        "utils": [
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1622928244,
+        "narHash": "sha256-VSYS/1OKKoeK3GPbPskfagZz+/2MwMQ1FviVFaG8tJo=",
+        "owner": "rmcgibbo",
+        "repo": "pyfst",
+        "rev": "8521f9dbefe0242aede3cb0ad292c31656495a88",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "pyfst",
+        "type": "github"
+      }
+    },
+    "python-dynamodb-lock-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616906969,
+        "narHash": "sha256-I4NPRCTHV2e3DAy3vbhFtxnsGEiBU+ur0Bo8rJ886bU=",
+        "owner": "rmcgibbo",
+        "repo": "python_dynamodb_lock",
+        "rev": "35a77d79b4b8afc6d3947af3110de05be83e0c19",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "python_dynamodb_lock",
+        "rev": "35a77d79b4b8afc6d3947af3110de05be83e0c19",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-hammering": "nixpkgs-hammering",
+        "nixpkgs-review": "nixpkgs-review",
+        "precedence-constrained-knapsack": "precedence-constrained-knapsack",
+        "pyfst": "pyfst",
+        "python-dynamodb-lock-src": "python-dynamodb-lock-src",
+        "statx": "statx",
+        "utils": "utils"
+      }
+    },
+    "statx": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "py-utils": "py-utils_3",
+        "utils": [
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1622925827,
+        "narHash": "sha256-OtDSztg9RdMQgTCnValuy/qiwRy37pvPh11lAlPt1PI=",
+        "owner": "rmcgibbo",
+        "repo": "statx",
+        "rev": "0d51fdfc1d7e40baa7dfc034e915440b506aabd4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rmcgibbo",
+        "repo": "statx",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1622445595,
+        "narHash": "sha256-m+JRe6Wc5OZ/mKw2bB3+Tl0ZbtyxxxfnAWln8Q5qs+Y=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7d706970d94bc5559077eb1a6600afddcd25a7c8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

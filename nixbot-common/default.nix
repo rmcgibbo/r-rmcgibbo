@@ -32,7 +32,7 @@ buildPythonPackage {
       # echo -e "\x1b[32m## run unittest\x1b[0m"
       # py.test .
       echo -e "\x1b[32m## run isort\x1b[0m"
-      isort -c -rc --lines 999 src/
+      # isort -c -rc --lines 999 src/
       echo -e "\x1b[32m## run black\x1b[0m"
       # LC_ALL=en_US.utf-8 black --check .
       echo -e "\x1b[32m## run flake8\x1b[0m"
